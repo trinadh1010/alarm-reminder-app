@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alarm App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>⏰ Alarm Reminder App</h1>
+
+<input type="time" id="alarmTime">
+
+<br><br>
+
+<input type="file" id="imageUpload" accept="image/*">
+
+<br><br>
+
+<button onclick="setAlarm()">Set Alarm</button>
+
+<h3 id="status"></h3>
+
+<img id="alarmImage">
+
+<audio id="alarmSound">
+<source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3">
+</audio>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
